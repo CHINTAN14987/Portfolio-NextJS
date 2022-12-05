@@ -1,27 +1,28 @@
-.container{
-display: flex;
-justify-content: space-between;
-padding: 2rem;
-padding-top: 2rem;}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-top: 2rem;
+}
 .list {
   list-style: none;
 }
-.list span {
+.portfolio span {
   color: white;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 10px;
 }
-.listContainer{
+.listContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 }
-.icon{
+.icon {
   display: flex;
   justify-content: flex-end;
 }
-.icon a{
+.icon a {
   color: white;
 }
 /* 
