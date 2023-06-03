@@ -15,7 +15,7 @@ const Header = () => {
       </div>
 
       <div className={styles.icon}>
-        <a href="mailto: chintan.frontend12@gmail.com">
+        <a href="mailto: chintan.react@gmail.com">
           <AiTwotoneMail size="2.5rem" />
         </a>
       </div>
