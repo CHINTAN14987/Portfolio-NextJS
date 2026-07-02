@@ -1,2 +1,2 @@
 Portfolio Link-
-https://hilarious-elf-dc8d54.netlify.app/
+https://chintan-dev-portfolio.vercel.app
