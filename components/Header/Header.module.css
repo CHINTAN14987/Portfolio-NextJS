@@ -1,114 +1,52 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
-  padding-top: 2rem;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--bg-canvas);
+  border-bottom: 1px solid var(--border-grid);
 }
-.list {
-  list-style: none;
+
+.logo {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  line-height: 1;
 }
-.portfolio span {
-  color: white;
-  font-weight: 900;
-  font-size: 20px;
-  margin-left: 10px;
+
+.logoDot {
+  color: var(--accent-amber);
 }
-.listContainer {
+
+.sayHiBtn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+  text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.5rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid var(--accent-amber);
+  transition: opacity 0.2s ease;
 }
-.icon {
-  display: flex;
-  justify-content: flex-end;
+
+.sayHiBtn:hover {
+  opacity: 0.7;
 }
-.icon a {
-  color: white;
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
 }
-/* 
-export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
-  display: flex;
-  flex-direction: row;
-  align-content: center;`;
-
-  export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
-  display: flex;
-  justify-content: space-around;
-li {
-  text-decoration:none
-}
-`;
-export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
- 
-`;
-
-// Navigation Links
-export const NavLink = styled.a`
-  font-size: 2rem;
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
-  transition: 0.4s ease;
-  &:hover {
-    color: #fff;
-    opacity: 1;
-    cursor: pointer;
-  }
-
-`;
-
-/// DropDown Contact
-export const ContactDropDown = styled.button`
-  border: none;
-  display: flex;
-  position: relative;
-  background: none;
-  font-size: 1.7rem;
-
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
-  cursor: pointer;
-  transition: 0.3s ease;
-
-  &:focus {
-    outline: none;
-  }
-  &:hover {
-    color: #fff;
-  }
-
-
-`;
-
-export const NavProductsIcon = styled(IoIosArrowDropdown)`
-  margin-left: 8px;
-  display: flex;
-  align-self: center;
-  transition: 0.3s ease;
- 
-  &:hover {
-    opacity: 1;
-  }
-
-`;
-
-
-
-
-export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
-  padding: 8px;
-&:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;  
-    
-  }
-` */

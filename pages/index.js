@@ -10,8 +10,8 @@ export default function Home() {
     <div style={{ width: "90%", margin: "auto" }}>
       <Header />
       <Hero />
-      <Projects />
       <Technologies />
+      <Projects />
     </div>
   );
 }

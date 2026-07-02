@@ -1,63 +1,80 @@
 const data = [
   {
-    title: "FrontEnd Developer",
-    Project: "Clock Up",
-    description:
-      "Web-Based Project Management Application and Task Time Tracker for Enterprise and Small Businesses",
-    responsibilities: `Write application interface code with JavaScript.  Creating routes for the application using the react-router-dom Routing feature. Converting PSD into the responsive UI using react js,redux. Bug Fixs. Provide weekly progress reports to the client.`,
-    techStack: "React JS, Redux, HTML, CSS, JavaScript, Bootstrap",
+    title: "Full Stack Developer",
+    Project: "Selectline ERP Integration",
+    description: "Middleware integration layer connecting a Node.js backend with the Selectline ERP system for two-way data sync.",
+    responsibilities: "Automated synchronization of orders, invoices, inventory levels, and customer records using scheduled BullMQ jobs. Designed retry-safe, idempotent API handlers to manage ERP sync failures. Implemented structured logging and alerting for failed jobs.",
+    techStack: "Node.js, Express.js, TypeScript, REST APIs, BullMQ",
     link: "https://assets2.lottiefiles.com/packages/lf20_39wxdmwj.json",
+    projectLink: "https://www.masabacoffee.ch/en?srsltid=AfmBOooO13UFOL1plBllLZf5cJj25z1_xsqzxVN6Xt4JXwXeL5bptGzW"
   },
   {
     title: "FrontEnd Developer",
-    Project: "Commission Buddy",
+    Project: "MarketProof - Real Estate Platform",
+    description: "Real estate platform supporting multiple property categories including condos and new developments.",
+    responsibilities: "Implemented real-time search functionality using Apache Solr. Developed reusable React components for property listing pages, search UI, and property detail modules. Integrated analytics dashboards using Recharts for market trends and insights.",
+    techStack: "React.js, Apache Solr, Recharts, REST APIs",
     link: "https://assets7.lottiefiles.com/packages/lf20_4eipbkty.json",
-    description:
-      "The application is used to provide recruiters with the necessary information about the various commissions associated with different clients and candidates. The application was used for every call that the recruiter made on negotiating, submitting, shortlisting, Billing, Payroll, and hiring.",
-    responsibilities:
-      "Build Project from Scratch. Write application interface code with JavaScript. Creating routes for the application using the react-router-dom Routing feature. Converting PSD into the responsive UI using react js,redux. Bug Fixes. Provide weekly progress reports to the client.",
-    techStack: "React JS, Next JS, Redux, HTML, CSS, JavaScript, Bootstrap",
+    projectLink: "https://marketproof.com/"
   },
   {
-    title: "FrontEnd Developer",
-    Project: "Client Directory",
+    title: "Backend Developer",
+    Project: "GymGuyzz - AI Fitness Platform",
+    description: "AI-driven fitness platform supporting web and mobile applications with personalized workout plans and diet suggestions.",
+    responsibilities: "Developed type-safe backend APIs in TypeScript. Integrated OpenAI ChatGPT API to generate personalized fitness guidance. Implemented Server-Sent Events (SSE) for real-time streaming AI responses. Optimized API performance with efficient middleware usage.",
+    techStack: "Node.js, Express.js, TypeScript, OpenAI API, REST APIs",
     link: "https://assets8.lottiefiles.com/packages/lf20_iem2gikp.json",
-    description:
-      "The application contained information about the clients and candidates with an integrated view showing data from various databases It contained majorly 3 views: Search view, Client view, and Candidate view.",
-    responsibilities:
-      "Write high-quality reusable code in React js, redux, and JavaScript to develop the dynamic user interface for various platforms. Collaborate with project managers, and business partners for work planning, sharing new ideas, code demonstrations, troubleshooting, and bug fixing. Optimize front-end elements to maximize performance across different devices and browsers.  Monitoring and improving front-end performance.",
-    techStack: "React JS, Redux, HTML, CSS, JavaScript, Bootstrap",
+    projectLink: "https://www.gymguyz.com/"
   },
   {
-    title: "FrontEnd Developer",
-    Project: "Pambron Healthcare",
-
-    description:
-      "A platform where various healthcare professionals can search and apply for jobs based on their profile and location.",
-    responsibilities:
-      "Developing web components in react JS and redux. Write code for responsive UI using JavaScript, HTML, and CSS. Building reusable components and front-end libraries for future use. Bug Fixes.",
-    techStack: "React JS, Redux, HTML, CSS, JavaScript, Bootstrap",
+    title: "Full Stack Developer",
+    Project: "Politicking - USA Election Insights & Voting Platform",
+    description: "Platform providing insights into USA election statistics, representatives' standings, and vote counts.",
+    responsibilities: "Built an Admin Panel and backend APIs to manage candidates, polling stations, and voting stats. Implemented secure REST APIs for candidate management and role permissions. Built interactive dashboards to visualize election analytics using charts.",
+    techStack: "Next.js, MongoDB, Express.js, React.js, Node.js, TypeScript, Recharts",
     link: "https://assets7.lottiefiles.com/packages/lf20_rr6wfmuk.json",
+    projectLink: "https://apps.apple.com/in/app/politicking/id6482575391"
   },
   {
-    title: "FrontEnd Developer",
-    Project: "Hire fast",
-    description:
-      "This project is based on hiring new candidates for different positions. Employers can schedule interviews with Google meet and zoom, and create online MCQs and Coding tests that automatically generate results and merit based on candidate performance.",
-    responsibilities:
-      "Write application interface code with JavaScript. Creating routes for the application using the react- router-dom Routing feature. Converting PSD into the responsive UI using react js, redux. Bug Fixes. Provide weekly progress reports to the client.",
-    techStack: "React JS, Redux, HTML, CSS, JavaScript, Bootstrap",
-    link: "https://assets7.lottiefiles.com/packages/lf20_QzA3Tl.json",
+    title: "Full Stack Developer",
+    Project: "Rheolution - Scientific Data Visualization",
+    description: "Scientific visualization platform enabling researchers to explore and analyze complex datasets.",
+    responsibilities: "Built interactive UI modules using React + TypeScript with dynamic chart rendering. Integrated Highcharts and LuckySheet for spreadsheet-style analysis. Developed REST APIs for data retrieval and visualization workflows. Implemented rich-text documentation.",
+    techStack: "MongoDB, Express.js, React.js, Node.js, TypeScript, Highcharts, LuckySheet",
+    link: "https://assets7.lottiefiles.com/packages/lf20_QzA3Tl.json"
   },
   {
-    title: "FrontEnd Developer",
-    Project: "OnRx Online Video",
-    description:
-      "This Complete system is for Doctors, patients can create appointments and doctor can approve or reject, once approved, the time slot will be allocated to patient so they both can connect on time and doctor can assist patient also can give medicine on Rx module they can search medicine and patient can order online as well they can buy it from offline store. This system has many features related healthcare domain",
-    responsibilities:
-      "WWrite code for the front using libraries like JavaScript, ReactJS. Creating routes for the application using the react-router-dom Routing feature. Bug fixes. Provide a weekly status report to the client.",
-    techStack: "React JS, Redux, HTML, CSS, JavaScript, Bootstrap",
-    link: "https://assets7.lottiefiles.com/private_files/lf30_cxcz7qyj.json ",
+    title: "Team Lead / Full Stack Developer",
+    Project: "Casa Care - Home Services & Packages",
+    description: "Platform where users can purchase home services and subscribe to service packages, featuring a complete Admin Panel.",
+    responsibilities: "Built Admin Panel from scratch to manage services, bookings, and users. Integrated Stripe Payment Gateway for secure checkout and Webhooks for real-time confirmation. Designed scalable Node.js backend architecture with secure authentication and role-based access control.",
+    techStack: "MongoDB, Express.js, Next.js, React.js, TypeScript, Stripe, JWT",
+    link: "https://assets7.lottiefiles.com/private_files/lf30_cxcz7qyj.json",
+    projectLink: "https://casacareexperts.com/"
   },
+  {
+    title: "Software Engineer",
+    Project: "Care Labs - Healthcare Platform",
+    description: "Healthcare relationship management platform with workflows for benefit administration and payments.",
+    responsibilities: "Developed scalable UI modules using React.js and Redux for a healthcare relationship management platform. Integrated REST APIs for managing healthcare workflows, benefit administration, and payment modules. Implemented routing and navigation using React Router DOM. Converted PSD designs into pixel-perfect responsive UI components.",
+    techStack: "Next.js, React.js, Redux, JavaScript, HTML, CSS, REST APIs",
+    link: "https://assets7.lottiefiles.com/packages/lf20_QzA3Tl.json"
+  },
+  {
+    title: "MERN Stack Developer",
+    Project: "House Renting - E-commerce Rental Platform",
+    description: "E-commerce house renting system with frontend and admin panel modules.",
+    responsibilities: "Developed frontend and admin panel modules for an e-commerce house renting system. Developed and integrated APIs for managing rental listings, users, and admin functionalities. Improved UI performance and handled bug fixes and feature enhancements.",
+    techStack: "MongoDB, Express.js, React.js, Node.js, Redux, REST APIs",
+    link: "https://assets7.lottiefiles.com/packages/lf20_QzA3Tl.json"
+  },
+  {
+    title: "MERN Stack Developer",
+    Project: "Hire Fast - Hiring & Assessment Platform",
+    description: "Hiring platform UI supporting scheduling interviews and online assessments.",
+    responsibilities: "Developed hiring platform UI supporting scheduling interviews via Google Meet and Zoom. Built MCQ and coding assessment modules with automated result generation. Implemented routing and workflow navigation using React Router DOM.",
+    techStack: "MongoDB, Express.js, React.js, Node.js, Redux, REST APIs",
+    link: "https://assets7.lottiefiles.com/packages/lf20_QzA3Tl.json"
+  }
 ];
 export default data;

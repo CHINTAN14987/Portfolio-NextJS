@@ -1,25 +1,17 @@
 import Link from "next/link";
-import { AiTwotoneMail } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
 import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.portfolio}>
-        <Link href="/" legacyBehavior>
-          <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-            <DiCssdeck size="3rem" /> <span>Portfolio</span>
-          </a>
-        </Link>
-      </div>
+    <header className={styles.container}>
+      <Link href="/" className={styles.logo}>
+        Chintan<span className={styles.logoDot}>.</span>
+      </Link>
 
-      <div className={styles.icon}>
-        <a href="mailto: chintan.react@gmail.com">
-          <AiTwotoneMail size="2.5rem" />
-        </a>
-      </div>
-    </div>
+      <a href="mailto:chintan.react@gmail.com" className={styles.sayHiBtn}>
+        SAY HI ↗
+      </a>
+    </header>
   );
 };
 export default Header;

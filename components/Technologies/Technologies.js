@@ -1,49 +1,72 @@
 import React from 'react'
 import styles from "./Technologies.module.css"
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { BsBookmarkPlus } from 'react-icons/bs';
-
 
 const Technologies = () => {
   return (
     <div className={styles.container}>
-        <h2>Technical Skill Sets</h2>
-        <p> I've worked with a range a technologies in the web development world.</p>
-        <div className={styles.techWrapper}>
-            <div >
-                <div className={styles.iconWrapper}><h3>Front-End    </h3>
-                <DiReact size="3rem" /></div>
-                <ul className={styles.list}><li>Experience with React JS</li>
-                <li>Experience with Next JS</li>
-                <li>Experience with Redux</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>BootStrap</li>
-                </ul>
-            </div>
-            <div >
-                <div className={styles.iconWrapper}><h3>Backend</h3>
-                <DiFirebase size="3rem" /></div>
-                <ul className={styles.list}><li>Familiar with FireBase Authorization</li>
-                
-                </ul>
-            </div>
-            <div >
-               <div className={styles.iconWrapper}> <h3>UI / UX Design</h3>
-                <DiZend size="3rem" /></div>
-                <ul className={styles.list}><li>Experience with Figma & PSD</li>
-                </ul>
-            </div>
-            <div>
-              <div className={styles.iconWrapper}>  <h3 >Others</h3>
-                <BsBookmarkPlus size="1.5rem"/></div>
-                <ul className={styles.list}><li>Experience with Semantic UI, Material UI & ANTD</li>
-                <li>Experience with Visiualization Library like Chart JS</li>
-                <li>Familiar with TypeScript</li>
-                </ul>
-            </div>
+      <div className={styles.techRow}>
+        <h3 className={styles.techTitle}>Front-End</h3>
+        <div className={styles.techContent}>
+          <span className={styles.techMeta}>05 TOOLS</span>
+          <div className={styles.techChips}>
+            <span className={styles.chip}>React</span>
+            <span className={styles.chip}>Next.js</span>
+            <span className={styles.chip}>TypeScript</span>
+            <span className={styles.chip}>React Native</span>
+            <span className={styles.chip}>Redux Toolkit</span>
+          </div>
         </div>
+      </div>
+
+      <div className={styles.techRow}>
+        <h3 className={styles.techTitle}>Backend</h3>
+        <div className={styles.techContent}>
+          <span className={styles.techMeta}>07 TOOLS</span>
+          <div className={styles.techChips}>
+            <span className={styles.chip}>Node.js</span>
+            <span className={styles.chip}>Express</span>
+            <span className={styles.chip}>REST</span>
+            <span className={styles.chip}>JWT</span>
+            <span className={styles.chip}>Nginx</span>
+            <span className={styles.chip}>Apache Solr</span>
+            <span className={styles.chip}>BullMQ / Redis</span>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.techRow}>
+        <h3 className={styles.techTitle}>Data</h3>
+        <div className={styles.techContent}>
+          <span className={styles.techMeta}>01 TOOL</span>
+          <div className={styles.techChips}>
+            <span className={styles.chip}>MongoDB</span>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.techRow}>
+        <h3 className={styles.techTitle}>DevOps & Cloud</h3>
+        <div className={styles.techContent}>
+          <span className={styles.techMeta}>03 TOOLS</span>
+          <div className={styles.techChips}>
+            <span className={styles.chip}>Docker</span>
+            <span className={styles.chip}>CI/CD</span>
+            <span className={styles.chip}>AWS</span>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.techRow}>
+        <h3 className={styles.techTitle}>Payments & Realtime</h3>
+        <div className={styles.techContent}>
+          <span className={styles.techMeta}>03 TOOLS</span>
+          <div className={styles.techChips}>
+            <span className={styles.chip}>Stripe Checkout</span>
+            <span className={styles.chip}>Stripe Webhooks</span>
+            <span className={styles.chip}>Server-Sent Events</span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
